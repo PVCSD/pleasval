@@ -4,6 +4,9 @@
 #'
 #' @export
 theme_pleasval <-  function(){
+
+  th <- theme_minimal()
+
   theme_minimal(base_size = 16, base_family = "") %+replace%
     theme(
       axis.text = element_text(size=rel(0.8),color = "#565656"),
